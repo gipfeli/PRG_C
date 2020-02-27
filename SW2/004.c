@@ -2,6 +2,7 @@
 #include <stdio.h>
 
 int main (void){
+	
 	printf("The program will print out the size of various data types: \n");
 	printf("Size of a char : %ld\n", sizeof(char));
 	printf("Size of a short : %ld\n", sizeof(short));
@@ -21,4 +22,5 @@ int main (void){
 	printf("Pointer addr of a float : %ld\n", sizeof(float*));
 	printf("Pointer addr of a double : %ld\n", sizeof(double*));
 	printf("Pointer addr of a long double : %ld\n", sizeof(long double*));
+
 }
