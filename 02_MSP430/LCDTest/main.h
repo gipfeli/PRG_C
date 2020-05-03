@@ -48,8 +48,6 @@
 
 #define STARTUP_MODE 0
 
-extern volatile unsigned char * stopWatchRunning;
-extern volatile unsigned char * tempSensorRunning;
 extern volatile unsigned char * mode;
 extern volatile unsigned char * S1buttonDebounce;
 extern volatile unsigned char * S2buttonDebounce;
