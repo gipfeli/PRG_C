@@ -25,7 +25,20 @@ void main(void) {
     P1DIR |= 0x01;                          // Set P1.0 to output direction
     P4DIR |= 0x01;
 
-    for(;;) {
+    P1OUT = 0x00;
+    P4OUT = 0x01;
+
+    LCDM12 = 0x00;
+    LCDM13 = 0x00;
+
+    LCDM13 = 0x01;
+    LCDM12 = 0x10;
+
+    LCDM13 = 0x03;
+
+    volatile int n;
+
+    for(n = 2; n!=0; n--) {
         volatile unsigned int i;            // volatile to prevent optimization
 
         P1OUT ^= 0x01;                      // Toggle P1.0 using exclusive-OR

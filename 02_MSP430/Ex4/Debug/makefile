@@ -8,6 +8,7 @@ GEN_OPTS__FLAG :=
 GEN_CMDS__FLAG := 
 
 ORDERED_OBJS += \
+"./hal_LCD.obj" \
 "./main.obj" \
 "../lnk_msp430fr4133.cmd" \
 $(GEN_CMDS__FLAG) \
@@ -153,8 +154,8 @@ Ex4.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "main.obj" 
-	-$(RM) "main.d" 
+	-$(RM) "hal_LCD.obj" "main.obj" 
+	-$(RM) "hal_LCD.d" "main.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

@@ -1,1 +1,1 @@
-"./main.obj" "../lnk_msp430fr4133.cmd" -llibc.a -l"/home/gipfeli/Dev/PRG_C/02_MSP430/DriverLib/Debug/DriverLib.lib" 
+"./hal_LCD.obj" "./main.obj" "../lnk_msp430fr4133.cmd" -llibc.a -l"/home/gipfeli/Dev/PRG_C/02_MSP430/DriverLib/Debug/DriverLib.lib" 

@@ -1,2 +1,5 @@
-#Fri May 01 03:19:30 CEST 2020
-rovInit-storage={"restoreViews"\:true}
+#Mon May 04 20:45:21 CEST 2020
+viewsData-storage={"xdc.runtime.System.XDCROOT"\:{"columnStates"\:[{"name"\:"entry","checked"\:true,"hasFormat"\:false,"format"\:null}],"fixedFont"\:false,"hasFormats"\:false},"xdc.runtime.System"\:{"defaultViewName"\:"XDCROOT"},"xdc.runtime.System.Raw"\:{}}
+rovSettings-storage={"exeMrus"\:["/home/gipfeli/Dev/PRG_C/02_MSP430/Ex4/Debug/Ex4.out"]}
+rovInit-storage={"restoreViews"\:true,"autoConnect"\:true,"exe"\:"<Use the program currently being debugged>","commLink"\:"Debugger","noExe"\:true,"progressInfo"\:{"min"\:0,"max"\:12,"step"\:1,"notifyCount"\:11,"average"\:11,"numLoads"\:14},"showIntro"\:true,"isNarrow"\:false,"inFullScreenMode"\:true}
+currentViews-storage=[{"viewName"\:"XDCROOT","id"\:"rovModuleView_0","prevState"\:{"viewWidth"\:"448px","viewHeight"\:"553px","left"\:"0px","top"\:"0px","cardWidth"\:"448px","cardHeight"\:"545px","viewContentDivPosition"\:"absolute"},"repeatDivider"\:1,"repeatRefreshEnabled"\:true,"defaultSize"\:true,"moduleName"\:"xdc.runtime.System","viewsData"\:{"xdc.runtime.System.XDCROOT"\:{"columnStates"\:[{"name"\:"entry","checked"\:true,"hasFormat"\:false,"format"\:null}],"fixedFont"\:false,"hasFormats"\:false}}}]
