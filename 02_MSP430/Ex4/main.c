@@ -35,7 +35,7 @@ int main( void )
     // Button 2 setup
     P4DIR &= ~BUTTON2;               // button is an input
     P4OUT |= BUTTON2;                // pull-up resistor
-    P4REN |= BUTTON2;                // resistor enabled
+    P2REN |= BUTTON2;                // resistor enabled
 
     volatile int n;
     int m = 6;                      // full battery
@@ -58,9 +58,9 @@ int main( void )
             do i--;
             while(i != 0);
         }
-/*
+
         // while the button is pressed
-        if (!(P2IN & BUTTON2)) {
+        if (P2IN & BUTTON2) {
             P4OUT &= ~0x01;
         } else{
             P4OUT |= 0x01;
@@ -69,7 +69,7 @@ int main( void )
             do j--;
             while(j != 0);
         }
-*/
+
         switch(m){
         case 6:
             LCDM12 = 0xF0;
